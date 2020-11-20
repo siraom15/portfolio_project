@@ -91,11 +91,9 @@ a:hover{
     font-size: 1.2em;
     transition:0.5s;
 }
-a::after{
+/* a::after{
     content: 'aom';
-    
-    
-}
+} */
 a.menu:hover{
     font-size: 2em;
     transition:0.5s;
