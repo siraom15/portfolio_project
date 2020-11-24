@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
 body,
 html {
     height: 100%;
@@ -6,7 +7,9 @@ html {
     font-family: 'Quattrocento Sans', sans-serif;
     scroll-behavior: smooth;
 }
-
+.kanit{
+    font-family: 'Kanit', sans-serif !important;
+}
 p {
     font-size: large;
 }
@@ -77,23 +80,29 @@ p {
     margin: 0%;
     padding: 0%;
 }
-
+.parallax-7 {
+    /* background-image: url("../img/"); */
+    /* background-color: #000000; */
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
 /* other */
 .next{
-    /* animation: pop 2s ease-in-out infinite; */
     animation: pop 2s  infinite;
 }
 #topic{
     animation: fade 5s infinite;
 }
 a:hover{
-
     font-size: 1.2em;
     transition:0.5s;
 }
-/* a::after{
-    content: 'aom';
-} */
+
 a.menu:hover{
     font-size: 2em;
     transition:0.5s;
@@ -143,7 +152,15 @@ progress{
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
 }
-
+.padding-1{
+    padding:1em;
+}
+.padding-2{
+    padding:2em;
+}
+.padding-3{
+    padding:3em;
+}
 .rounded {
     border-radius: 0.25rem;
 }
@@ -161,10 +178,21 @@ a,li {
 
 .bg-alpha-dark {
     background-color: rgba(0, 0, 0, 0.521);
-    ;
+    
 }
 
-
+.bg-white{
+    background-color: white;
+}
+.bg-dark{
+    background-color: #000000;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
 /* text-color */
 
 .text-shadow {
